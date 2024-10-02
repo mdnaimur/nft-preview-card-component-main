@@ -1,0 +1,24 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer utilities {
+  .bg-primary-soft-blue {
+    background-color: hsl(215, 51%, 70%);
+  }
+  .text-primary-cyan {
+    color: hsl(178, 100%, 50%);
+  }
+  .bg-neutral-very-dark-blue-bg {
+    background-color: hsl(217, 54%, 11%);
+  }
+  .bg-neutral-very-dark-blue-card {
+    background-color: hsl(216, 50%, 16%);
+  }
+  .border-neutral-very-dark-blue-line {
+    border-color: hsl(215, 32%, 27%);
+  }
+  .text-neutral-white {
+    color: hsl(0, 0%, 100%);
+  }
+}
